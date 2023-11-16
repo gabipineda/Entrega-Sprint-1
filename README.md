@@ -18,7 +18,7 @@
                 <div class="Imagen">
                     <img src="Perfil.png" alt="PerfilTomas">
                 </div>
-                <h2>Nosaka King <br><span>Estudiante de Software</span></h2>
+                <h2>Gabriela Pineda <br><span>Estudiante de Software</span></h2>
             </div>
             <div class="Informacion">
                 <h3 class="Titulo">Datos de Contacto</h3>
