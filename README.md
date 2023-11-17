@@ -7,8 +7,6 @@
     <title>Hoja de Vida</title>
     <link rel="stylesheet" href="estilo.css"
       
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
