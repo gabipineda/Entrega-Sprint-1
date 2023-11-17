@@ -1,14 +1,14 @@
-!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="es">
 
 <head><link rel="stylesheet" href="styles.css">
-  <meta charset="UTF-8">
+    <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hoja de Vida</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
-        integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    <link rel="stylesheet" href="estilo.css"
+      
         crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="estilo.css">
 </head>
 
 <body>
@@ -16,9 +16,9 @@
         <div class="lado_izquierdo">
             <div class="perfil">
                 <div class="Imagen">
-                    <img src="Perfil.png" alt="PerfilTomas">
+                    <img src="img" alt="Perfil Gabriela">
                 </div>
-                <h2>Gabriela Pineda <br><span>Estudiante de Software</span></h2>
+                <h2>Nosaka King <br><span>Estudiante de Software</span></h2>
             </div>
             <div class="Informacion">
                 <h3 class="Titulo">Datos de Contacto</h3>
@@ -97,10 +97,8 @@
                         <h5>Masternet</h5>
                     </div>
                     <div class="text">
-                        <h4>Tecnico en computadoras</h4>
-                        <p>Venta de computadoras y accesorios de redes, Mantenimiento preventivo y correctivo de
-                            computadoras. Ademas de instalacion de aplicaciones y antivirus para garantizar la seguridad
-                            del cliente</p>
+                        <h4>Auxiliar de recursos Humanos</h4>
+                        <p>Recopilacion de datos e informacion de los procesos de gestion humana y registros personales, evaluacion de desempeño</p>
                     </div>
                 </div>
                 <div class="box">
@@ -109,7 +107,7 @@
                         <h5>Red Tower</h5>
                     </div>
                     <div class="text">
-                        <h4>Desarrollador de Java </h4>
+                        <h4>Desarrolladora de Java </h4>
                         <p>Aplicacion de escritorio desarollado en Java para un sistema de reserva de habitaciones del
                             Hotel Red Tower en la ciudad de Santo Domingo</p>
                     </div>
@@ -142,13 +140,13 @@
                     <li> <i class="fa fa-gamepad" aria-hidden="true"></i> Videjuegos
                     </li>
                     <li> <i class="fa fa-futbol-o" aria-hidden="true"></i>
-                        Jugar Futbol
+                        Deportista
                     </li>
                     <li> <i class="fa fa-book" aria-hidden="true"></i>
-                        Leer Libros
+                        Me encanta leer libros
                     </li>
                     <li><i class="fa fa-flag-checkered" aria-hidden="true"></i>
-                        Deportista
+                        Dinamica
                     </li>
                 </ul>
             </div>
