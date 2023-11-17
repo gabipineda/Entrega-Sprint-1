@@ -1,261 +1,78 @@
-* {
+body {
+    font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    background-color: #f9f9f9;
 }
 
-body {
-    background: rgb(230, 173, 212);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    min-height: 100vh;
-    margin: 50px;
+h1, h2 {
+    color: #333;
 }
 
-.contenido {
-    position: relative;
-    width: 100%;
-    max-width: 1000px;
-    min-height: 1000px;
-    background: rgb(97, 88, 88)747;
-    margin: 10px;
-    display: grid;
-    grid-template-columns: 1fr 2fr;
-    box-shadow: 0 35px 55px rgba(0, 0, 0, 0.1);
-
+a {
+    color: #0077cc;
+    text-decoration: none;
 }
-
-.contenido .lado_izquierdo {
-    position: relative;
-    background: #212f35;
-    padding: 40px;
-}
-
-.perfil {
-    position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    padding-bottom: 20px;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.2);
-}
-
-.perfil .Imagen {
-    position: relative;
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    overflow: hidden;
-}
-
-.perfil .Imagen img {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-.perfil h2 {
-    color: #fff;
-    font-size: 1.5em;
-    margin-top: 20px;
-    text-transform: uppercase;
-    text-align: center;
-    font-weight: 600;
-    line-height: 1.4em;
-}
-
-.perfil h2 span {
-    font-size: 0.8em;
-    font-weight: 300;
-}
-
-.Informacion {
-    padding-top: 40px;
-}
-
-.Informacion .Titulo {
-    color: #fff;
-    text-transform: uppercase;
-    font-weight: 600;
-    letter-spacing: 1px;
-    margin-bottom: 20px;
+h1 {
+    background-color: #0077cc;
+    color: white;
+    padding: 20px;
     text-align: center;
 }
 
-.Informacion ul {
-    position: relative;
-}
-
-.Informacion ul li {
-    position: relative;
-    list-style: none;
+p {
     margin: 10px 0;
+    padding: 0 20px;
+}
+ul {
+    list-style-type: square;
+    padding: 0 40px;
+}
+table {
+    width: 80%;
+    margin: 20px auto;
+    border-collapse: collapse;
 }
 
-.Informacion ul li .icon {
-    display: inline-block;
-    width: 30px;
-    font-size: 18px;
-    color: #03a9f4;
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 10px 20px;
+    text-align: left;
+}
+form {
+    max-width: 500px;
+    margin: 20px auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: white;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+}
+
+input[type="email"], textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+input[type="submit"] {
+    background-color: #0077cc;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
     cursor: pointer;
 }
 
-.Informacion ul li span {
-    color: #fff;
-    font-weight: 300;
-}
-
-.Informacion.Educativa li {
-    margin-bottom: 15px;
-    line-height: 1.4em;
-
-}
-
-.Informacion.Educativa h5 {
-    color: #03a9f4;
-    font-weight: 500;
-}
-
-.Informacion.Educativa h4:nth-child(2) {
-    color: #fff;
-    font-weight: 550;
-}
-
-.Informacion.Educativa h4 {
-    color: #fff;
-    font-weight: 300;
-}
-
-.Informacion.Lenguajes .porcentaje {
-    position: relative;
-    width: 100%;
-    height: 6px;
-    background: #081921;
-    display: block;
-    margin-top: 5px;
-}
-
-.Informacion.Lenguajes .porcentaje div{
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: #03a9f4;
-
-}
-
-.contenido .lado_derecho {
-    position: relative;
-    background: #fff;
-    padding: 40px;
-}
-.Acerca {
-    margin-bottom: 50px;
-}
-.Acerca:last-child {
-    margin-bottom: 0;
-}
-.Acerca .Titulo2 {
-    
-    color: #003147;
-    text-transform: uppercase;
-    letter-spacing: 1px;
-    margin-bottom: 10px;
-
-}
-p {
-    color: #003147;
-    text-align: justify;
-    line-height: 1.4em;
-}
-.Acerca .box {
-    display: flex;
-    flex-direction: row;
-    margin: 20px 0;
-}
-.Acerca .Compania {
-   min-width: 170px;
-}  
-.Acerca .Compania h5 {
-    text-transform: uppercase;
-    color: #848c90;
-    font-weight: 600;
-
-}
-.Acerca .box .text h4 {
-    text-transform: uppercase;
-    color: #2a7da2;
-    font-size: 17.5px;
-
-}
-.habilidades .box {
-    position: relative;
-    width: 100%;
-    display: grid;
-    grid-template-columns: 170px 1fr;
-    justify-content: center;
-    align-items: center;
-}
-.habilidades .box h4 {
-    text-transform: uppercase;
-    color: #848c99;
-    font-weight: 550;
-
-}
-.habilidades .box .porcentaje {
-    position: relative;
-    width: 100%;
-    height: 10px;
-    background : #f0f0f0;
-}
-.habilidades .box .porcentaje div {
-    position: absolute;
-    top: 0;
-    left: 0;
-    height: 100%;
-    background: #03a9f4;
-}
-.Intereses ul {
-    display: grid;
-    grid-template-columns: repeat(4,1fr);
-}
-.Intereses ul li {
-    list-style: none;
-    color: #333;
-    font-weight: 500;
-    margin: 10px 0;
-}
-.Intereses ul li .fa {
-    color: #03a9f4;
-    font-size: 18px;
-    width: 20px;
-}
-@media (max-width: 1000px)
-{
-.contenido {
-    grid-template-columns:  repeat(1,1fr);
-}
-.Intereses ul{
-    grid-template-columns:  repeat(2,1fr);;
-}
-}
-@media (max-width: 600px)
-{
-    .Acerca .box {
-        flex-direction: column;
-    }
-    .Acerca .box .Compania {
-        margin-bottom: 5px;
-    }
-    .Intereses ul{
-        grid-template-columns:  repeat(1,1fr);;
-    }
-    .habilidades .box {
-        grid-template-columns: repeat(1,1fr);
-    }
+input[type="submit"]:hover {
+    background-color: #0055a4;
 }
