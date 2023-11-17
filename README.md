@@ -14,9 +14,9 @@
         <div class="lado_izquierdo">
             <div class="perfil">
                 <div class="Imagen">
-                    <img src="img" alt="Perfil Gabriela">
+                    <img src="estilo.css" alt="Perfil Gabriela">
                 </div>
-                <h2>Nosaka King <br><span>Estudiante de Software</span></h2>
+                <h2>GABRIELA PINEDA <br><span>Estudiante de Software</span></h2>
             </div>
             <div class="Informacion">
                 <h3 class="Titulo">Datos de Contacto</h3>
@@ -135,7 +135,7 @@
             <div class="Acerca Intereses">
                 <h2 class="Titulo2">Intereses</h2>
                 <ul>
-                    <li> <i class="fa fa-gamepad" aria-hidden="true"></i> Videjuegos
+                    <li> <i class="fa fa-gamepad" aria-hidden="true"></i>  Cantar
                     </li>
                     <li> <i class="fa fa-futbol-o" aria-hidden="true"></i>
                         Deportista
